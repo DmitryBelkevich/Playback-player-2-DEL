@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/screen_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_weight="1"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    tools:context=".activities.fragments.song.ScreenFragment">
+
+    <TextView
+        android:id="@+id/score_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Score" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/keySignature_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Abm" />
+
+        <TextView
+            android:id="@+id/playback_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Original" />
+
+    </LinearLayout>
+
+</LinearLayout>

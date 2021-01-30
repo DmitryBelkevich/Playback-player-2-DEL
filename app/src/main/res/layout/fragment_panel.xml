@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".activities.fragments.song.PanelFragment">
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:drawableLeft="@drawable/ic_baseline_play_arrow_24"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:drawableLeft="@drawable/ic_baseline_stop_24"
+        android:enabled="false" />
+
+</LinearLayout>

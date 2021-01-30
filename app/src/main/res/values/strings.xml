@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Playback-player</string>
+
+    <string name="text_fragment">Text</string>
+    <string name="score_fragment">Score</string>
+    <string name="player_fragment">Player</string>
+</resources>

@@ -1,0 +1,22 @@
+## Java
+
+## Intellij IDEA
+
+*.iml
+.idea/
+
+## Gradle
+
+.gradle/
+build/
+
+## android
+
+local.properties
+
+## other
+
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
